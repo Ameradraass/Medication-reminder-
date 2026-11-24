@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e">
+<title>مُذكّر الدواء</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>💊 مُذكّر الدواء</h1>
+<button id="enable" class="ghost">🔔 تفعيل الصوت والإشعارات</button></header>
+<nav>
+<button data-tab="meds" class="active">الأدوية</button>
+<button data-tab="history">السجل</button>
+<button data-tab="link">الربط</button>
+</nav>
+<main>
+<section id="tab-meds">
+<form id="medForm" class="card">
+<h2>إضافة دواء</h2>
+<label>اسم الدواء<input id="name" required placeholder="مثال: باراسيتامول"></label>
+<label>أوقات التناول (ساعة)
+<div id="times"><input type="time" value="08:00"></div>
+<button type="button" id="addTime" class="ghost">+ وقت آخر</button></label>
+<label>الأشهر التي يؤخذ فيها<div id="months" class="chips"></div></label>
+<label>صوت المنبّه
+<div class="row"><select id="sound"></select><button type="button" id="preview" class="ghost">▶ تجربة</button></div></label>
+<div class="row">
+<label>عدد الحبوب في العلبة<input id="stock" type="number" min="0" value="30"></label>
+<label>حبوب لكل جرعة<input id="perDose" type="number" min="1" value="1"></label>
+</div>
+<button class="primary">حفظ الدواء</button>
+</form>
+<div id="medList"></div>
+</section>
+<section id="tab-history" hidden><div id="logList"></div></section>
+<section id="tab-link" hidden>
+<div id="linkBox" class="card"></div>
+<div id="remote"></div>
+</section>
+</main>
+<div id="ringModal" class="modal" hidden>
+<div class="card">
+<h2 id="ringTitle"></h2><p id="ringSub"></p>
+<button id="takenBtn" class="primary">✅ أخذتُ الدواء</button>
+<button id="snoozeBtn" class="ghost">⏰ تذكير بعد 10 دقائق</button>
+<button id="skipBtn" class="danger">تخطّي هذه الجرعة</button>
+</div></div>
+<script type="module" src="app.js"></script>
+</body></html>
