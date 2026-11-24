@@ -44,4 +44,23 @@
     <string name="b_test_msg">%1$s: رسالة تجريبية من منبّه الدواء.</string>
     <string name="b_unit_h">%1$d ساعة</string>
     <string name="b_unit_m">%1$d دقيقة</string>
+
+    <string name="l_title">الربط مع مرافق</string>
+    <string name="l_server">عنوان الخادم (https://…)</string>
+    <string name="l_pname">اسمك</string>
+    <string name="l_connect">اتصال</string>
+    <string name="l_linked">متصل ✓ (يُنبَّه المرافق إذا لم تجب على المنبّه أو انقطع هاتفك)</string>
+    <string name="l_names">شارك أسماء الأدوية مع المرافق</string>
+    <string name="l_invite">أنشئ رمز دعوة لمرافق</string>
+    <string name="l_invite_show">رمز الدعوة: %1$s\nصالح 24 ساعة ولمرة واحدة. أعطه للمرافق.</string>
+    <string name="l_err">فشل. تحقق من العنوان (https) ومن الرمز ومن الإنترنت.</string>
+    <string name="l_cg_title">أنا مرافق</string>
+    <string name="l_code">رمز الدعوة</string>
+    <string name="l_join">انضمام</string>
+    <string name="l_joined">تم الانضمام. في تطبيق ntfy اشترك بهذا الرمز: %1$s</string>
+    <string name="l_open_ntfy">افتح ntfy</string>
+    <string name="l_nontfy">ثبّت تطبيق ntfy أولاً.</string>
+    <string name="l_status">اعرض الحالة</string>
+    <string name="l_last">آخر ظهور للهاتف منذ %1$s</string>
+    <string name="l_batt">البطارية %1$d%%</string>
 </resources>
