@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Medicine Alarm</string>
+    <string name="grant_title">Allow these permissions</string>
+    <string name="grant_intro">The alarm cannot ring reliably without all of them.</string>
+    <string name="p_notif">Notifications</string>
+    <string name="p_exact">Exact alarms</string>
+    <string name="p_fsi">Full-screen alert on the lock screen</string>
+    <string name="p_battery">Run without battery limits</string>
+    <string name="grant_btn">Grant next permission</string>
+    <string name="add_title">Add a dose</string>
+    <string name="med_name">Medicine name</string>
+    <string name="med_dose">Dose (e.g. 1 tablet)</string>
+    <string name="pick_time">Time: %1$s</string>
+    <string name="duration_hint">Days of treatment (empty = no end)</string>
+    <string name="add_btn">Add to schedule</string>
+    <string name="schedule">My schedule</string>
+    <string name="empty">No doses yet.</string>
+    <string name="delete">Delete</string>
+    <string name="test_btn">Test alarm in 5 seconds</string>
+    <string name="ring_title">Time for your medicine</string>
+    <string name="taken">Taken</string>
+    <string name="snooze">Snooze 5 min</string>
+    <string name="need_name">Enter the medicine name and pick at least one day.</string>
+    <string name="notif_ch">Medicine alarms</string>
+</resources>
